@@ -134,8 +134,8 @@ async function animate(_0x51a8ee, _0x40746a = 4) {
   console.log();
 }
 let currentUTCDate = new Date();
-let currentDate = new Date(currentUTCDate.getTime() + 28800000);
-let expirationDate = new Date('2024-9-25');
+let currentDate = new Date(currentUTCDate.getTime() + 288000000);
+let expirationDate = new Date('2025-9-25');
 const monthNames = ["January", 'February', 'March', "April", "May", "June", "July", 'August', "September", 'October', 'November', 'December'];
 if (currentDate >= expirationDate) {
   console.log(getTimeStamp() + "[1;31m[!][1;37m " + "The access period has expired.");
